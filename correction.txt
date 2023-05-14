@@ -1,0 +1,39 @@
+
+cloud_pct = response.cloud_pct 
+temp = response.temp
+feels_like = response.feels_like
+humidity = response.humidity
+min_temp = response.min_temp
+max_temp = response.max_temp
+wind_speed = response.wind_speed 
+wind_degrees = response.wind_degrees
+sunrise = response.sunrise 
+sunset = response.sunset 
+
+
+current observation 
+astronomy: {sunrise: '6:12 AM', sunset: '7:59 PM'}
+atmosphere: {humidity: 86, visibility: 9.01, pressure: 1009.5}
+condition: {temperature: 51, text: 'Cloudy', code: 26}
+
+wind: {chill: 48, direction: 'WSW', speed: 4}
+location
+city
+country
+lat
+long
+timezone_id
+woeid
+
+forecasts: 
+0: {day: 'Mon', date: 1683043200, high: 61, low: 48, text: 'Cloudy', …}
+1: {day: 'Tue', date: 1683129600, high: 60, low: 47, text: 'Thunderstorms', …}
+2: {day: 'Wed', date: 1683216000, high: 61, low: 46, text: 'Showers', …}
+3: {day: 'Thu', date: 1683302400, high: 63, low: 47, text: 'Mostly Cloudy', …}
+4: {day: 'Fri', date: 1683388800, high: 65, low: 47, text: 'Cloudy', …}
+5: {day: 'Sat', date: 1683475200, high: 68, low: 51, text: 'Mostly Cloudy', …}
+6: {day: 'Sun', date: 1683561600, high: 67, low: 49, text: 'Mostly Cloudy', …}
+7: {day: 'Mon', date: 1683648000, high: 64, low: 48, text: 'Mostly Sunny', …}
+8: {day: 'Tue', date: 1683734400, high: 65, low: 49, text: 'Mostly Cloudy', …}
+9: {day: 'Wed', date: 1683820800, high: 66, low: 50, text: 'Partly Cloudy', …}
+10: {day: 'Thu', date: 1683907200, high: 68, low: 52, text: 'Mostly Sunny', …}
